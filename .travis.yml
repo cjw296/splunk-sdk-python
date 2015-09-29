@@ -40,4 +40,4 @@ python:
 
 berfore_script: python setup.py build dist
 
-script: travis_wait python setup.py test
+script: python setup.py test
