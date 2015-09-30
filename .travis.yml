@@ -38,6 +38,8 @@ language: python
 python:
   - "2.7"
 
+install: true
+
 berfore_script: python setup.py build dist
 
-script: python setup.py test
+script: python tests/test_app.py
