@@ -42,4 +42,4 @@ install: true
 
 berfore_script: python setup.py build dist
 
-script: python tests/test_app.py
+script: cd tests && python test_app.py
